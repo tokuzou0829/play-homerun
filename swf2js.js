@@ -26975,7 +26975,6 @@ if (!("swf2js" in window)){(function(window)
         }
 
         if (url) {
-
             var stage = (options && options.stage instanceof Stage) ? options.stage : new Stage();
             stage.setOptions(options);
             stages[stage.getId()] = stage;
