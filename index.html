@@ -5,8 +5,13 @@
     <title>Practice swf2js</title>
     <!-- ↓ swf2js を読み込んでおく -->
     <script src="./swf2js.js"></script>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
   </head>
   <body>
+    <embed src="./homerun.swf"
+type="application/x-shockwave-flash"
+width="550" height="400" bgcolor="#ffffff"
+pluginspage="http://www.adobe.com/go/getflashplayer_jp" />
     <a href="https://kids.disney.co.jp/etc/disney-game/01_swf/3018/homerun.swf" download>プーさんのホームランダービーダウンロードリンク(https://kids.disney.co.jp/etc/disney-game/01_swf/3018/homerun.swf)</a>
     <!-- ↓ コレで指定した SWF ファイルが再生される -->
     <script>swf2js.load('./homerun.swf');</script>
